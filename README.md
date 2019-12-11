@@ -22,8 +22,15 @@ Run Application at your port (By default application will run at 8090 port as it
 
 ###### Access API URL
   
- ** POST localhost:8090/employee ** => Add User => Pass parameters in body (UserName, Name, Age, empID) and set Content-Type: application/json in Header
- ** GET localhost:8090/employee **  => Get all Users
- ** PUT localhost:8090/employee **  => Update user on the behalf of empID => Pass parameters in body (UserName, Name, Age, empID) and set Content-Type: application/json in Header
- ** DELETE localhost:8090/employee ** => DELETE user => Pass parameters in body (empID) and set Content-Type: application/json in Header
+ ** POST localhost:8090/employee ** 
+    Add User => Pass parameters in body (UserName, Name, Age, empID) and set Content-Type: application/json in Header
+    
+ ** GET localhost:8090/employee **  
+    Get all Users
+    
+ ** PUT localhost:8090/employee **  
+    Update user on the behalf of empID => Pass parameters in body (UserName, Name, Age, empID) and set Content-Type: application/json in Header
+    
+ ** DELETE localhost:8090/employee ** 
+    DELETE user => Pass parameters in body (empID) and set Content-Type: application/json in Header
 
